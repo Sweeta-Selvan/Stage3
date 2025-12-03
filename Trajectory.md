@@ -42,7 +42,7 @@
 
   * Alveolar macrophages
 
-  2\.  The cell types you identified at 1 dpi, 2 dpi, and 3 dpi correlate with COVID-19 infection because many of them share biological properties similar to **ependymal cells, neurons, cholangiocytes, myoepithelial cells, T cytotoxic cells, keratinocytes, ionocytes, luminal epithelial cells**, and other barrier/secretory/transport-active tissues that SARS-CoV-2 typically targets.
+  2\.  The cell types identified at 1 dpi, 2 dpi, and 3 dpi correlate with COVID-19 infection because many of them share biological properties similar to **ependymal cells, neurons, cholangiocytes, myoepithelial cells, T cytotoxic cells, keratinocytes, ionocytes, luminal epithelial cells**, and other barrier/secretory/transport-active tissues that SARS-CoV-2 typically targets.
 
 ### **Ciliated cells — motile, transport-active, high ACE2 (similar to ependymal cells)**
 
@@ -93,7 +93,7 @@ They react to SARS-CoV-2 by **upregulating** interferon genes and injury-respons
 
 ---
 
-### **Ionocytes — rare but ACE2-high, similar to keratinocytes in sensitivity**
+### **Ionocytes — rare but ACE2-high**
 
 Ionocytes show extremely high ACE2 expression and behave similarly to **keratinocytes** in the epidermis:
 
@@ -127,7 +127,7 @@ This is crucial in COVID-19 lung pathology.
 
 **6\. Macrophages at 3 dpi — immune activation similar to T cytotoxic cells**
 
-By 3 dpi you observed **alveolar macrophages**, which correlates with:
+By 3 dpi I observed **alveolar macrophages**, which correlates with:
 
 * recruitment of immune cells  
 * activation of **T cytotoxic** pathways
@@ -136,7 +136,7 @@ By 3 dpi you observed **alveolar macrophages**, which correlates with:
 
 These immune cells respond to viral antigens produced by infected epithelium.
 
-3\. In your dataset, **ACE2 expression is very low, sparse, and restricted to only a few epithelial subtypes**, mainly:
+3\. In  dataset, **ACE2 expression is  low, sparse, and restricted to only a few epithelial subtypes**, mainly:
 
 * **Ionocytes** (where ACE2 is naturally high)
 
@@ -222,19 +222,13 @@ In both SARS-CoV-2 studies, ENO2 is:
 
 Unlike ACE2, ENO2 goes **up** with increasing viral burden.
 
-5\. **Ionocyte clusters** show the highest per-cell ACE2 expression at 3 dpi (in your annotations these are clusters labeled `10`, `11` and `8`; cluster **10** is a clear example of an ACE2-high cluster).
+5\. **Ionocyte clusters** show the highest per-cell ACE2 expression at 3 dpi (in  annotations these are clusters labeled `10`, `11` and `8`; cluster **10** is a clear example of an ACE2-high cluster).
 
----
+---## **Visual / intuitive interpretation**
 
-## **Visual / intuitive interpretation**
-
-If you plot this on the UMAP/TSNE and in cluster violin/dotplots you’ll see:
-
-* **UMAP**: The ionocyte clusters appear as *small, compact pockets* with bright ACE2 signal (few spots but high intensity).
-
+If I plot this in cluster violin/dotplots:
 * **Violin plot (ACE2 by cluster)**: Ionocyte clusters have the **highest median and long upper tails** — meaning most ionocytes express low-to-moderate ACE2, but a subpopulation expresses very high ACE2.
 
-* **Dotplot**: Ionocyte clusters show **large dot size** (proportion expressing ACE2 is moderate for a rare cell type) and **dark color** (high average expression per expressing cell).
 
 Visually this means: **ACE2 signal is concentrated, not widespread** — bright islands of expression rather than a broad wave across all epithelial clusters.
 
